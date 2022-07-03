@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+<head>
+    <title>DJCRM</title>
+    <link href="{% static 'css/styles.css' %}" />
+<script src="https://cdn.tailwindcss.com" rel='stylesheet' ></script>
+</head>
+<body>
+    
+    <div class='max-w-7xl mx-auto'>
+        {% include 'navbar.html' %}
+
+        {% block content %}
+
+        {% endblock content %}
+
+    </div>
+    {% include 'scripts.html' %}
+</body>
+</html>
