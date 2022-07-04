@@ -24,9 +24,6 @@ class SignUpView(generic.CreateView):
 class LandingPageView(generic.TemplateView):
     template_name = 'landing_page.html'
 
-def landing_page(request):
-    return render(request,'landing_page.html')
-
 class LeadListView(generic.ListView):
     template_name = "leads/lead_list.html"
     queryset = Lead.objects.all()

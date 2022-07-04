@@ -1,6 +1,5 @@
 from os import stat
 from django.conf import settings
-from leads.views import landing_page
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
