@@ -7,7 +7,6 @@ class LandingPageTest(TestCase):
     """"
     TEST FOR LANDING PAGE
     """
-
     def test_get(self):
         
         """"
